@@ -1,74 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-<script src="script.js"></script>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Desmatamento no Brasil</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Desmatamento no Brasil</h1>
+<p>Monitoramento ambiental e dados recentes</p>
+
+</header>
+
+<section>
+
+<h2>Sobre o Monitoramento</h2>
+
+<p>
+O desmatamento no Brasil é monitorado por satélites através do
+<a href="https://www.obt.inpe.br/" target="_blank">INPE</a>.
+Esses sistemas analisam imagens de satélite para detectar a perda de vegetação.
+</p>
+
+</section>
+
+<section>
+
+<h2>Principais Motivos do Desmatamento</h2>
+
+<ul>
+
+<li>Expansão da agropecuária</li>
+<li>Extração de madeira</li>
+<li>Mineração</li>
+<li>Construção de estradas</li>
+<li>Queimadas</li>
+
+</ul>
+
+</section>
 
 <section>
 
 <h2>Dados de Desmatamento por Região</h2>
 
+<button onclick="mostrarFonte()">Mostrar fonte dos dados</button>
+
 <table>
 
 <tr>
 <th>Região</th>
-<th>Bioma principal</th>
+<th>Bioma</th>
 <th>Área desmatada (km²)</th>
-<th>Fonte</th>
 </tr>
 
-<tr>
+<tr onclick="destacarLinha(this)">
 <td>Norte</td>
 <td>Amazônia</td>
 <td>6288</td>
-<td>
-<a href="https://www.obt.inpe.br/" target="_blank">
-INPE
-</a>
-</td>
 </tr>
 
-<tr>
+<tr onclick="destacarLinha(this)">
 <td>Centro-Oeste</td>
 <td>Cerrado</td>
 <td>3500</td>
-<td>
-<a href="https://terrabrasilis.dpi.inpe.br/" target="_blank">
-TerraBrasilis
-</a>
-</td>
 </tr>
 
-<tr>
+<tr onclick="destacarLinha(this)">
 <td>Nordeste</td>
 <td>Caatinga</td>
 <td>1200</td>
-<td>
-<a href="https://www.ibge.gov.br/" target="_blank">
-IBGE
-</a>
-</td>
 </tr>
 
-<tr>
+<tr onclick="destacarLinha(this)">
 <td>Sudeste</td>
 <td>Mata Atlântica</td>
 <td>980</td>
-<td>
-<a href="https://www.sosma.org.br/" target="_blank">
-SOS Mata Atlântica
-</a>
-</td>
 </tr>
 
-<tr>
+<tr onclick="destacarLinha(this)">
 <td>Sul</td>
 <td>Mata Atlântica / Pampa</td>
 <td>430</td>
-<td>
-<a href="https://www.ibge.gov.br/" target="_blank">
-IBGE
-</a>
-</td>
 </tr>
 
 </table>
 
 </section>
+
+<section>
+
+<h2>Fontes Oficiais</h2>
+
+<ul>
+
+<li>
+<a href="https://www.obt.inpe.br/" target="_blank">
+INPE
+</a>
+</li>
+
+<li>
+<a href="https://terrabrasilis.dpi.inpe.br/" target="_blank">
+TerraBrasilis
+</a>
+</li>
+
+<li>
+<a href="https://www.ibge.gov.br/" target="_blank">
+IBGE
+</a>
+</li>
+
+</ul>
+
+</section>
+
+<footer>
+
+<p>Site educativo sobre desmatamento no Brasil</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
