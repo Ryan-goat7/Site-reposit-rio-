@@ -1,67 +1,98 @@
+/* estilo geral da página */
 body{
-
-font-family: Arial;
-
-margin:0;
-
-background:#f4f4f4;
-
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f6f4;
+    color:#333;
 }
 
+/* cabeçalho */
 header{
-
-background:#2e7d32;
-
-color:white;
-
-text-align:center;
-
-padding:20px;
-
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:25px;
 }
 
+/* seções */
 section{
-
-padding:20px;
-
+    padding:20px;
+    margin:20px;
+    background:white;
+    border-radius:8px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
 }
 
+/* títulos */
+h1{
+    margin:0;
+}
+
+h2{
+    color:#2e7d32;
+}
+
+/* lista */
+ul{
+    line-height:1.8;
+}
+
+/* tabela */
 table{
-
-width:100%;
-
-border-collapse:collapse;
-
-background:white;
-
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
 }
 
-th,td{
-
-border:1px solid #ccc;
-
-padding:10px;
-
-text-align:center;
-
-}
-
+/* cabeçalho da tabela */
 th{
-
-background:#4caf50;
-
-color:white;
-
+    background:#4caf50;
+    color:white;
+    padding:10px;
 }
 
+/* células */
+td{
+    border:1px solid #ddd;
+    padding:10px;
+}
+
+/* efeito ao passar o mouse */
+tr:hover{
+    background:#f1f1f1;
+}
+
+/* botão */
+button{
+    background:#2e7d32;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    margin-bottom:10px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#1b5e20;
+}
+
+/* links */
+a{
+    color:#1b5e20;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* rodapé */
 footer{
-
-background:#1b5e20;
-
-color:white;
-
-text-align:center;
-
-padding:10px;
-
+    text-align:center;
+    background:#1b5e20;
+    color:white;
+    padding:15px;
+    margin-top:20px;
 }
