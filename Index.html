@@ -1,95 +1,71 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-
-<meta charset="UTF-8">
-
-<title>Desmatamento no Brasil</title>
-
-<link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-
-<header>
-
-<h1>Desmatamento no Brasil</h1>
-
-<p>Monitoramento ambiental</p>
-
-</header>
-
 <section>
 
-<h2>Sobre o Monitoramento</h2>
-
-<p>
-O desmatamento é monitorado pelo
-<a href="https://www.obt.inpe.br/OBT/assuntos/programas/amazonia/prodes" target="_blank">
-INPE / PRODES
-</a>
-</p>
-
-<h2>Motivos do Desmatamento</h2>
-
-<ul>
-
-<li>Expansão da agropecuária</li>
-
-<li>Extração de madeira</li>
-
-<li>Mineração</li>
-
-<li>Construção de estradas</li>
-
-<li>Queimadas</li>
-
-</ul>
-
-<h2>Dados de Desmatamento</h2>
-
-<button onclick="mostrarFonte()">Mostrar fonte dos dados</button>
+<h2>Dados de Desmatamento por Região</h2>
 
 <table>
 
 <tr>
-
-<th>Ano</th>
-<th>Bioma</th>
-<th>Área desmatada</th>
-
+<th>Região</th>
+<th>Bioma principal</th>
+<th>Área desmatada (km²)</th>
+<th>Fonte</th>
 </tr>
 
 <tr>
-
-<td>2024</td>
+<td>Norte</td>
 <td>Amazônia</td>
-<td>6288 km²</td>
-
+<td>6288</td>
+<td>
+<a href="https://www.obt.inpe.br/" target="_blank">
+INPE
+</a>
+</td>
 </tr>
 
 <tr>
-
-<td>2025</td>
+<td>Centro-Oeste</td>
 <td>Cerrado</td>
-<td>7235 km²</td>
+<td>3500</td>
+<td>
+<a href="https://terrabrasilis.dpi.inpe.br/" target="_blank">
+TerraBrasilis
+</a>
+</td>
+</tr>
 
+<tr>
+<td>Nordeste</td>
+<td>Caatinga</td>
+<td>1200</td>
+<td>
+<a href="https://www.ibge.gov.br/" target="_blank">
+IBGE
+</a>
+</td>
+</tr>
+
+<tr>
+<td>Sudeste</td>
+<td>Mata Atlântica</td>
+<td>980</td>
+<td>
+<a href="https://www.sosma.org.br/" target="_blank">
+SOS Mata Atlântica
+</a>
+</td>
+</tr>
+
+<tr>
+<td>Sul</td>
+<td>Mata Atlântica / Pampa</td>
+<td>430</td>
+<td>
+<a href="https://www.ibge.gov.br/" target="_blank">
+IBGE
+</a>
+</td>
 </tr>
 
 </table>
 
 </section>
-
-<footer>
-
-<p>Fonte: INPE / TerraBrasilis / IBGE</p>
-
-</footer>
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
